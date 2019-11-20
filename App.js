@@ -3,11 +3,12 @@ import React from 'react'
 import AppNavigator from "./Screens/AppNavigator";
 import { StyleSheet, Platform, Image, Text, View } from 'react-native'
 import * as Font from "expo-font";
-
+console.disableYellowBox = true;
 
 
 
 export default class App extends React.Component{
+
     state = {
         fontLoaded:false,
     };
